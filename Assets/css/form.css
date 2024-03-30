@@ -1,0 +1,49 @@
+header {
+    color: rgb(248, 121, 2);
+    background-color: rgba(1, 27, 12, 0.856);
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+form {
+    color:rgb(248, 121, 2);
+    background-color: rgba(1, 27, 12, 0.856);
+    padding-bottom: 100px;
+   
+}
+
+textarea {
+    background-color: rgb(1, 53, 23);
+    color: rgb(248, 121, 2);
+    align-content: top;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+
+/* Darkmode */
+/* header {
+    color: rgb(11, 43, 150);
+    background-color: rgba(2, 7, 37, 0.856);
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+form {
+    color:blueviolet;
+    background-color: rgba(2, 8, 46, 0.856);
+    padding-bottom: 100px;
+   
+}
+
+textarea {
+    background-color: rgba(3, 12, 63, 0.856);
+    color: blueviolet;
+    align-content: top;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+} */
