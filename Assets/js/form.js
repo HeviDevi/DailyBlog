@@ -1,12 +1,12 @@
 
 
 //Button that leads to blog display page
-// const ourDailyBlogs = document.getElementById('linkToBlogs')
+const ourDailyBlogs = document.getElementById('linkToBlogs')
 
-// ourDailyBlogs.addEventListener("click", function(event){
-//     event.preventDefault();
-//     window.location.href="blog.html";
-// });
+ourDailyBlogs.addEventListener("click", function(event){
+    event.preventDefault();
+    window.location.href="blog.html";
+});
 
 
 //Captures the user's input in the text boxes and saves it to local memory so long as all boxes contain content

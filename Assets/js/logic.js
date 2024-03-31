@@ -1,38 +1,21 @@
-//Dark and Light mode toggler
+
+
+
+
+//Dark and Light mode toggler that manipulates bootstrap 5's html theme elemnts
 const lightDarkToggler = document.getElementById('Light-Dark-Toggler');
 
 let isLightMode = true;
 
 
+lightDarkToggler.addEventListener('click', () => {
+    var theme = document.querySelector('html');
 
-lightDarkToggler.onabort("click", function(){
-    if (isLightMode) {
-        $('header').css({'color': rgb(248, 121, 2),
-            'background-color': rgba(1, 27, 12, 0.856),
-                        })
-    }});
+        if (theme.getAttribute('data-bs-theme')==="dark") {
+            theme.setAttribute('data-bs-theme', 'light');
+        } 
+        
+        else { theme.setAttribute ('data-bs-theme', 'dark')
 
-
-// header {
-//     color: rgb(248, 121, 2);
-//     background-color: rgba(1, 27, 12, 0.856);
-//     text-align: center;
-//     border-radius: 20px;
-//     margin-bottom: 25px;
-// }
-
-// form {
-//     color:rgb(248, 121, 2);
-//     background-color: rgba(1, 27, 12, 0.856);
-//     padding-bottom: 100px;
-   
-// }
-
-// textarea {
-//     background-color: rgb(1, 53, 23);
-//     color: rgb(248, 121, 2);
-//     align-content: top;
-//     padding: 20px;
-//     font-family: Arial, Helvetica, sans-serif;
-//     font-size: large;
-// }
+        }
+    });
