@@ -1,36 +1,16 @@
-# <Your-Project-Title>
+Our Daily Blog
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+I wanted to make the basic structure for a shared blog page where multiple users could add their daily stories. I was motivated to capture the daily goings on of others by my nautural intrest in the unique lives of others. I hope to one day improve the site by adding more engaging cosmetic elements and polishing the overall look of the site. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+The user need only fill in the title and author boxes with their respective information, write a blog post, and click the log button.
+Here is a Link to the deployed site 
+![](/Assets/images/Screenshot%20(3).png)
+![](/Assets/images/Screenshot%20(4).png)
 
 ## Credits
 
