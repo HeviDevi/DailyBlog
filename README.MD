@@ -8,7 +8,7 @@ I wanted to make the basic structure for a shared blog page where multiple users
 ## Usage
 
 The user need only fill in the title and author boxes with their respective information, write a blog post, and click the log button.
-Here is a Link to the deployed site 
+Here is a Link to the deployed site https://hevidevi.github.io/DailyBlog/
 ![](/Assets/images/Screenshot%20(3).png)
 ![](/Assets/images/Screenshot%20(4).png)
 
