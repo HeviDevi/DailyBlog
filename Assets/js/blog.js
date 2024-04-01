@@ -32,11 +32,13 @@ savedBlogs.forEach(blog => {
   
   const postBlog = document.createElement('div');
 
-  postBlog.classList.add(`row`)
+ 
   postBlog.innerHTML =  `
-  <h1>Title: ${blog.title}</h1>
+ 
+  <h2>Title: ${blog.title}</h2>
   <p>Written By: ${blog.author}</p>
   <p>${blog.blog}</p>
+  <h3>==================</h3>
   `
   ;
   document.getElementById('allDailyBlogs').appendChild(postBlog);
